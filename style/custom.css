@@ -1,0 +1,19 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.card {
+    transition: ease-out 0.3s;
+    box-shadow: 1px 2px 10px #333;
+}
+
+.card:hover {
+    z-index: 100;
+    position: relative;
+    transform: scale(1);
+    box-shadow: 50px 5px 50px #333;
+}
+
+.row {
+    margin-bottom: 2rem;
+}
